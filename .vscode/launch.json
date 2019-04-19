@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - mymainclass1",
+            "request": "launch",
+            "mainClass": "mymainclass1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyMainClass",
+            "request": "launch",
+            "mainClass": "MyMainClass"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - mainclass",
+            "request": "launch",
+            "mainClass": "mainclass"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - employeeprofession",
+            "request": "launch",
+            "mainClass": "employeeprofession"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "test"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - helloworld",
+            "request": "launch",
+            "mainClass": "helloworld"
+        }
+    ]
+}
