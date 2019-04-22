@@ -43,9 +43,18 @@ class Animal {
       myPigg.animalSound();
 
       myDog.animalSound();
-      //myDog.dogBark();  //does not work
       myDogg.animalSound();
+      //myDog.dogBark();  //does not work
       myDogg.dogBark(); 
+
+      //creating an polymorphic array of animal class
+      Animal animalarray[] = new Animal[2];
+      animalarray[0] = new Pig();
+      animalarray[1] = new Dog();
+
+      for (Animal ani : animalarray) {
+        ani.animalSound();
+      }
 
       Date cd = new Date();
       //long time = cd.getTime();
